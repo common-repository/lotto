@@ -1,0 +1,41 @@
+.get-numbers-button {
+	font-weight:bold;
+	font-size:20px;
+	padding:10px;
+}
+
+.numbers-display {
+	margin-top:20px;
+}
+
+.lotto-ball
+{
+	border:1px solid black;
+	border-radius:50%;
+	background:radial-gradient(yellow,orange);
+	font-size:14px;
+	font-weight:bold;
+	color:red;
+	width:30px;
+	height:30px;
+	margin-right:5px;
+	margin-bottom:5px;
+	float:left;
+	padding:3px;
+}
+
+.power-ball
+{
+    background:radial-gradient(red,yellow);
+    color:white;
+}
+	
+.hidden-ball, .hidden-combination
+{
+	display:none;
+}
+
+.clear
+{
+	clear:both;
+} 
